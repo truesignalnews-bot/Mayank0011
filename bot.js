@@ -7,7 +7,7 @@ const axios = require("axios");
 const BOT_TOKEN = process.env.BOT_TOKEN || "8916440261:AAEi2-0DNJdUnK1VHoA5BmlNLZCT4wRxGjs";
 const BOT_USERNAME = process.env.BOT_USERNAME || "Instagram_free_reels_bundle_bot";
 const SHRINK_API_KEY = process.env.SHRINK_API_KEY || "4e7386ac97c93f8b41c79bece5fa25bdf7e04cbe";
-const YOUTUBE_TUTORIAL = process.env.YOUTUBE_TUTORIAL || "https://youtu.be/l_Jm_-qnq7c?si=kKjHdRtiiP1c-3ZI";
+const YOUTUBE_TUTORIAL = process.env.YOUTUBE_TUTORIAL || "https://youtube.com/shorts/NUB7hSACZYk?si=2Mp8A6q-KwclQb62";
 
 // ================= FILE PATHS =================
 const BUNDLES_FILE = path.join(__dirname, "bundles.txt");
