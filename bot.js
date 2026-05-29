@@ -4,8 +4,8 @@ const path = require("path");
 const axios = require("axios");
 
 // ================= CONFIG =================
-const BOT_TOKEN = process.env.BOT_TOKEN || "8300661698:AAGMTIs2Nbu9N_wRzxSMv6-LNCxRNoNLpwg";
-const BOT_USERNAME = process.env.BOT_USERNAME || "Terabox_link_to_video_convertbot";
+const BOT_TOKEN = process.env.BOT_TOKEN || "8916440261:AAEi2-0DNJdUnK1VHoA5BmlNLZCT4wRxGjs";
+const BOT_USERNAME = process.env.BOT_USERNAME || "Instagram_free_reels_bundle_bot";
 const SHRINK_API_KEY = process.env.SHRINK_API_KEY || "4e7386ac97c93f8b41c79bece5fa25bdf7e04cbe";
 const YOUTUBE_TUTORIAL = process.env.YOUTUBE_TUTORIAL || "https://youtu.be/l_Jm_-qnq7c?si=kKjHdRtiiP1c-3ZI";
 
