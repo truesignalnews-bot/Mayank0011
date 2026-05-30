@@ -115,10 +115,10 @@ bot.start((ctx) => {
 💎 Your Points: ${user.points}
 
 🎁 FREE SYSTEM:
-5 Points = 1 Free Bundle (No Ads)
+1 Points = 1 Free Bundle (No Ads)
 
 💰 MONETIZED SYSTEM:
-Below 5 points = ShrinkEarn links
+Below 1 points = ShrinkEarn links
 
 ⚡ Tip: More referrals = more free bundles!`,
   {
@@ -166,15 +166,15 @@ bot.on("callback_query", async (ctx) => {
 
   ctx.answerCbQuery("Checking...");
 
-  if (user.points >= 5) {
-    user.points -= 5;
+  if (user.points >= 1) {
+    user.points -= 1;
     saveUsers();
     return ctx.reply(
 `🎁 FREE REWARD UNLOCKED
 
 🔓 ${bundle.title}
 
-💎 Used 5 Points (FREE ACCESS)
+💎 Used 1 Points (FREE ACCESS)
 
 👉 ${bundle.link}`
     );
